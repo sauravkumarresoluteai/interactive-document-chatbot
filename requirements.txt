@@ -7,3 +7,4 @@ python-dotenv==1.1.1
 langchain-community
 streamlit==1.46.1
 sentence-transformers
+pypdf
