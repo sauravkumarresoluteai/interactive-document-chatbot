@@ -11,8 +11,9 @@ import os
 load_dotenv()
 
 st.title("Interactive Document Chatbot")
+# Let user input their GROQ API key
 
-
+os.environ["GROQ_API_KEY"] = "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"
 uploaded_file = st.file_uploader("Upload a pdf", type=["pdf","docx","txt"])
 
 if uploaded_file is not None:
