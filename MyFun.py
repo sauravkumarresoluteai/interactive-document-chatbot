@@ -1,4 +1,5 @@
-from langchain.document_loaders import PyPDFLoader, Docx2txtLoader, TextLoader
+from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, TextLoader
+
 from langchain_huggingface.embeddings import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage,AIMessage
