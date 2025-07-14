@@ -4,4 +4,5 @@ langchain_groq==0.3.6
 langchain_huggingface==0.3.0
 langchain_text_splitters==0.3.8
 python-dotenv==1.1.1
+langchain-community
 streamlit==1.46.1
